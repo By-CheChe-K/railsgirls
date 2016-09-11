@@ -10,7 +10,7 @@ end
 group :production do
   gem 'pg'
 end
-
+gem 'devise'
 gem 'carrierwave'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
